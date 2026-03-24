@@ -1,5 +1,5 @@
 ---
-title: 550 Midterm Project: f75 milk formula 
+title: "550 Midterm Project: f75 milk formula"
 author: Megha Patel
 output: github_document
 ---
