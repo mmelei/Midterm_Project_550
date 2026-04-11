@@ -2,6 +2,7 @@ here::i_am("code/01_table_one_EL.R")
 
 library(gtsummary)
 library(labelled)
+library(tidyverse)
 
 # Read in data
 data <- read_csv(
