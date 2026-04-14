@@ -1,0 +1,9 @@
+default:
+  input_file: "data/f75_interim.csv"
+
+male:
+  s: "Male"
+
+female:
+  s: "Female"
+  
