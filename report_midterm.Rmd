@@ -16,7 +16,8 @@ here::i_am(
 )
 ```
 
-Characteristics of the full cohort are displayed in table one.
+
+## Characteristics of the full cohort are displayed in table one.
 ```{r, load-table-one, echo = FALSE, warning=FALSE}
 table_one <- readRDS(
   here::here("output/table_one.rds")
@@ -26,7 +27,7 @@ table_one
 ```
 
 
-Boxplot that shows changes in `r config_list$s` MUAC from baseline to endlines across arms.
+## Boxplot that shows changes in `r config_list$s` MUAC from baseline to endlines across arms.
 ```{r, echo = FALSE, warning=FALSE}
 boxplot <- readRDS(
   here::here("output/boxplot.rds")
@@ -34,7 +35,8 @@ boxplot <- readRDS(
 boxplot
 ```
 
-Linear regression model that predicts change in `r config_list$s` MUAC by arm.
+
+## Linear regression model that predicts change in `r config_list$s` MUAC by arm.
 ```{r, echo = FALSE, warning=FALSE}
 regression_table <- readRDS(
   here::here("output/regression_table.rds")

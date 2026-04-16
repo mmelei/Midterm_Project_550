@@ -1,16 +1,16 @@
 here::i_am("code/04_render.R")
 
-WHICH_CONFIG <- Sys.getenv("WHICH_CONFIG")
+sex <- Sys.getenv("R_CONFIG_ACTIVE")
 config_list  <- config::get(
-  config = "WHICH_CONFIG"
+  config = "sex"
 )
 
 library(rmarkdown)
 report_filename <- paste0(
-  "report_mideterm_",
-  WHICH_CONFIG,
+  "report_midterm_",
+  sex,
   ".html"
 )
 
-render("report_midterm.Rmd")
+render("report_midterm.Rmd", output_file = report_filename)
 
